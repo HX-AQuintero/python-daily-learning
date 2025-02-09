@@ -1,5 +1,5 @@
 # List slicing
-""" new_list = ['a', 'b', 'c']
+new_list = ['a', 'b', 'c']
 print(new_list[1])
 print(new_list[-2])
 print(new_list[1:3])
@@ -10,7 +10,7 @@ my_list = [1,2,3]
 bonus = my_list + [5]
 my_list[0] = 'z'
 print(my_list)
-print(bonus) """
+print(bonus)
 
 shopping_cart = [
   'notebooks',
@@ -19,18 +19,25 @@ shopping_cart = [
   'grapes'
 ]
 
-""" print(shopping_cart[0])
+print(shopping_cart[0])
 print(shopping_cart[0:2])
-print(shopping_cart[0::2]) """
+print(shopping_cart[0::2])
 
 # Lists are mutable
-""" shopping_cart[0] = 'laptop'
+shopping_cart[0] = 'laptop'
 new_cart = shopping_cart[0:3]
 new_cart[0] = 'gum'
 print(new_cart)
-print(shopping_cart) """
+print(shopping_cart)
 
 # Let's give it a shot
+shopping_cart = [
+  'notebooks',
+  'sunglasses',
+  'toys',
+  'grapes'
+]
+
 new_cart = shopping_cart
 print('first print: ', new_cart)
 new_cart[0] = 'gum'
