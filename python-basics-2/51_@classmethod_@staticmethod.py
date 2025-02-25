@@ -36,8 +36,8 @@ class MyClass:
   def show_class_variable(cls):
     return cls.class_variable # Access class-level attributes
 
-print(MyClass.class_variable)
-print(MyClass.show_class_variable())
+print(MyClass.class_variable) # Hello
+print(MyClass.show_class_variable()) # Hello
 
 # When to use @classmethod? 🤔
 # When the method needs to access or modify class attributes.
