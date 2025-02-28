@@ -1,5 +1,4 @@
 # Private vs Public Variables
-
 """
 Python does not have truly private variables or methods like some other languages (e.g., Java, C++).
 However, single underscore (_var) and double underscore (__var) are conventions used to control access levels.
