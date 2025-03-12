@@ -1,4 +1,4 @@
-# Map()
+# Map(function, iterable)
 """
 The map function is a built-in function that applies a given function to each item in an iterable
 (list, tuple, etc.), returning a new iterable without modifying the original one.

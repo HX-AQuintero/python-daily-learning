@@ -1,4 +1,4 @@
-# Filter
+# Filter(function, iterable)
 """
 The filter function is a built-in function that is used to filiter elements from an iterabole based on a condition.
 It applies a function that returns True or False to each element and keeps only those that return True.
